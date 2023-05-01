@@ -1,0 +1,9 @@
+{
+    "java_version":"17 or 11",
+    "entity_name":"Employee",
+    "developer_initials":"db",
+    "server_port_number": "4040",
+    "db_schema_name": "cruft_demo",
+    "db_user_name":"root",
+    "db_user_password":"Softtek@2022"
+}
