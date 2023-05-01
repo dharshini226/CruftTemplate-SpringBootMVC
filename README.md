@@ -6,17 +6,17 @@ Cruft Template || Spring Boot Project || Single Entity DB CRUD
 ----------------------------------------------------------------------------------------------------------------
 1. Step 1: create a local workspace
 
-![image](https://user-images.githubusercontent.com/63113554/235421824-1958faa0-8ece-48e3-b0b8-32999ef8a4f9.png)
+![image](https://user-images.githubusercontent.com/63113554/235424107-1749cd47-4e39-441f-824a-71f15c35d751.png)
 
 ----------------------------------------------------------------------------------------------------------------
 2. Step 2: call cmd to this location
 
-![image](https://user-images.githubusercontent.com/63113554/235421876-0c885acf-9fd7-4227-8288-02899345f26b.png)
+![image](https://user-images.githubusercontent.com/63113554/235424173-32447cf5-63d4-4b04-a069-29bdfff1e11e.png)
 
 ----------------------------------------------------------------------------------------------------------------
 3. Step 3: cruft create https://github.com/dharshini226/CruftTemplate-SpringBootMVC.git
 
-![image](https://user-images.githubusercontent.com/63113554/235422000-8f344e28-8e48-416a-a973-b52eb643d00c.png)
+![image](https://user-images.githubusercontent.com/63113554/235424234-09e9ecdc-7004-4443-8213-c6eb55817f64.png)
 
 ----------------------------------------------------------------------------------------------------------------
 4. Step 4: Create a schema in MySQL
@@ -26,12 +26,12 @@ Cruft Template || Spring Boot Project || Single Entity DB CRUD
 ----------------------------------------------------------------------------------------------------------------
 5. Step 5: Enter all the details asked
 
-![image](https://user-images.githubusercontent.com/63113554/235422487-7d6bf544-e349-413f-81a4-6d15ec7d7824.png)
+![image](https://user-images.githubusercontent.com/63113554/235424351-6ded6bfa-81f8-482f-aa0c-30e58f4b4568.png)
 
 ----------------------------------------------------------------------------------------------------------------
 6. Step 6: Voila, the project is created for you (check your local workspace)
 
-![image](https://user-images.githubusercontent.com/63113554/235422923-59ff9eef-be81-4873-9c20-743760cbe4af.png)
+![image](https://user-images.githubusercontent.com/63113554/235424400-0237abad-7d78-4e15-a1b4-6d41a154e0bb.png)
 
 ----------------------------------------------------------------------------------------------------------------
 7. Step 7: Open this project in any IDE and apply your business logic 
