@@ -1,6 +1,6 @@
 Cruft Template || Spring Boot Project || Single Entity DB CRUD
 
-* Prerequisites:: MySql, any IDE with STS, java 11 or 17 and Cruft
+* Prerequisites:: MySql, any IDE with STS, java 11 or 17, Tomcat 9 and Cruft
 
 * Steps to use this Template: 
 ----------------------------------------------------------------------------------------------------------------
