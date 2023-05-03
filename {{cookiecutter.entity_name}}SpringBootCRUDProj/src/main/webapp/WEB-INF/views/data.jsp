@@ -42,8 +42,8 @@
 
 	</c:if>
 
-	<a href="/{{cookiecutter.entity_name}}CrudSpringBoot/reg">Register</a> ${msg} &nbsp;
-	<a href="/{{cookiecutter.entity_name}}CrudSpringBoot/">Home</a> ${msg}
+	<a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/reg">Register</a> ${msg} &nbsp;
+	<a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/">Home</a> ${msg}
 
 </body>
 </html>

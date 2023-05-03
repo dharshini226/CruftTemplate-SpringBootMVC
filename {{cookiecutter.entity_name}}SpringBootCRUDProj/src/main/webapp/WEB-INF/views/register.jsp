@@ -49,8 +49,8 @@ Id     : <form:input path="id"  readOnly="true"/>
 
 ${msg}
 
-<a href="/{{cookiecutter.entity_name}}CrudSpringBoot/all">Show All</a> &nbsp;
-<a href="/{{cookiecutter.entity_name}}CrudSpringBoot/">Home</a>
+<a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/all">Show All</a> &nbsp;
+<a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/">Home</a>
 
 
 

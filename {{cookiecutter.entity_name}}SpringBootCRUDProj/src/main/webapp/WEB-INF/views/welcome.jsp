@@ -12,8 +12,8 @@
 
 <h2>Welcome to {{cookiecutter.entity_name}} Website</h2>
 
-<a href="/{{cookiecutter.entity_name}}CrudSpringBoot/all">View All</a> &nbsp;
-<a href="/{{cookiecutter.entity_name}}CrudSpringBoot/reg">Register</a>
+<a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/all">View All</a> &nbsp;
+<a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/reg">Register</a>
 
 </body>
 </html>

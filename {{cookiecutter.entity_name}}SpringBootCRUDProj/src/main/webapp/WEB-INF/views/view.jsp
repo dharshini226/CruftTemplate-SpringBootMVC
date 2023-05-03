@@ -34,21 +34,21 @@
 <tr>
 	<th>Delete</th>
 	<td>
-		<a href="/{{cookiecutter.entity_name}}CrudSpringBoot/delete?id=${emp.id}">Delete</a>
+		<a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/delete?id=${emp.id}">Delete</a>
 	</td>
 </tr>
 <tr>
 	<th>Update</th>
 	<td>
-		<a href="/{{cookiecutter.entity_name}}CrudSpringBoot/getUpdate?id=${emp.id}">Update</a>
+		<a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/getUpdate?id=${emp.id}">Update</a>
 	</td>
 </tr>
 
 </table>
 
-<a href="/EmployeeCrudSpringBoot/all">View All</a> &nbsp;
-<a href="/EmployeeCrudSpringBoot/reg">Register</a> &nbsp;
-<a href="/EmployeeCrudSpringBoot/">Home</a>
+<a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/all">View All</a> &nbsp;
+<a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/reg">Register</a> &nbsp;
+<a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/">Home</a>
 
 ${msg}
 
