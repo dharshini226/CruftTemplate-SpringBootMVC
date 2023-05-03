@@ -34,7 +34,7 @@
 					<td>${ob.{{cookiecutter.attribute1}}}</td>
 					<td>${ob.{{cookiecutter.attribute2}}}</td>
 					<td>${ob.{{cookiecutter.attribute3}}}</td>
-					<td><a href="/{{cookiecutter.entity_name}}CrudSpringBoot/view?id=${ob.id}">View</a></td>
+					<td><a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/view?id=${ob.id}">View</a></td>
 				</tr>
 			</c:forEach>
 
