@@ -16,36 +16,29 @@ public class {{cookiecutter.entity_name}}ServiceImpl implements {{cookiecutter.e
 	@Autowired
 	private {{cookiecutter.entity_name}}Repository repo;
 
-	@Transactional
 	public String save{{cookiecutter.entity_name}}({{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}}) {
 		return repo.save(objectOf{{cookiecutter.entity_name}})+" successfully Saved!!!";
 	}
 
-	@Transactional
 	public {{cookiecutter.entity_name}} update{{cookiecutter.entity_name}}({{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}}) {
 		return repo.save(objectOf{{cookiecutter.entity_name}});
 	}
 
-	@Transactional
 	public void delete{{cookiecutter.entity_name}}(int id) {
 			repo.deleteById(id);
 	}
 
-	@Transactional(readOnly = true)
 	public {{cookiecutter.entity_name}} getOne{{cookiecutter.entity_name}}(int id) {
-		Optional<{{cookiecutter.entity_name}}> emp = repo.findById(id);
-		if(emp.isPresent())
+		Optional<{{cookiecutter.entity_name}}> objectOf{{cookiecutter.entity_name}}gt = repo.findById(id);
+		if(objectOf{{cookiecutter.entity_name}}gt.isPresent())
 		{
-			return emp.get();
+			return objectOf{{cookiecutter.entity_name}}gt.get();
 		}
 		else return null;
 	} 
 
-	@Transactional(readOnly = true)
 	public List<{{cookiecutter.entity_name}}> getAll{{cookiecutter.entity_name}}s() {
 		return repo.findAll();
 	}
-
-	
 
 }

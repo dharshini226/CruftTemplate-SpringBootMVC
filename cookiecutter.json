@@ -1,6 +1,13 @@
 {
     "java_version":"17 or 11",
     "entity_name":"Employee",
+	"info":"Give 3 attributes for your entity",
+	"attribute1":"empName",
+	"data_type_attribute1":"String",
+	"attribute2":"wmpGen",
+	"data_type_attribute2":"String",
+	"attribute3":"empSal",
+	"data_type_attribute3":"int",
     "developer_initials":"db",
     "server_port_number": "4040",
     "db_schema_name": "cruft_demo",
