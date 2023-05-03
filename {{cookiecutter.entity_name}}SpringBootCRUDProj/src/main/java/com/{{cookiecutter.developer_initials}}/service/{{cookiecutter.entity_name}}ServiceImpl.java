@@ -16,8 +16,8 @@ public class {{cookiecutter.entity_name}}ServiceImpl implements {{cookiecutter.e
 	@Autowired
 	private {{cookiecutter.entity_name}}Repository repo;
 
-	public String save{{cookiecutter.entity_name}}({{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}}) {
-		return repo.save(objectOf{{cookiecutter.entity_name}})+" successfully Saved!!!";
+	public Integer save{{cookiecutter.entity_name}}({{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}}) {
+		return repo.save(objectOf{{cookiecutter.entity_name}}).getid();
 	}
 
 	public {{cookiecutter.entity_name}} update{{cookiecutter.entity_name}}({{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}}) {

@@ -78,7 +78,7 @@ public class {{cookiecutter.entity_name}}Controller {
 	// get Update objectOf{{cookiecutter.entity_name}}
 	@GetMapping("/getUpdate")
 	public String getUpdate{{cookiecutter.entity_name}}Page(@RequestParam Integer id, Model map) {
-		map.addAttribute("employee", service.getOne{{cookiecutter.entity_name}}(int id));
+		map.addAttribute("employee", service.getOne{{cookiecutter.entity_name}}(id));
 		map.addAttribute("mode", "edit");
 		return "register";
 	}
