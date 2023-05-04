@@ -14,7 +14,7 @@ pageEncoding="ISO-8859-1" isELIgnored="false"%>
 
 <meta charset="ISO-8859-1">
 
-<title>Employee Error Page</title>
+<title>{{cookiecutter.entity_name}} Error Page</title>
 
 </head>
 
@@ -26,7 +26,7 @@ pageEncoding="ISO-8859-1" isELIgnored="false"%>
 
  
 
-<a href="/EmployeeSpringBootCRUDProj/">Home</a> &nbsp;
+<a href="/{{cookiecutter.entity_name}}SpringBootCRUDProj/">Home</a> &nbsp;
 
  
 
