@@ -94,4 +94,9 @@ public class {{cookiecutter.entity_name}}Controller {
 		return "redirect:view?id=" + objectOf{{cookiecutter.entity_name}}upA.getid();
 	}
 	
+	@PostMapping("/error")
+	public String showError() {
+		return "error";
+}
+	
 }
