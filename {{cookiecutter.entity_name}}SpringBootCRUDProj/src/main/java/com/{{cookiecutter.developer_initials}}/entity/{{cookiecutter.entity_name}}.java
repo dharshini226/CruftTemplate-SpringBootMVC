@@ -39,9 +39,7 @@ public class {{cookiecutter.entity_name}} {
 		return id;
 	}
 
-	public void setEmpId(Integer id) {
-		this.id = id;
-	}
+
 
 	public {{cookiecutter.data_type_attribute1}} get{{cookiecutter.attribute1}}() {
 		return {{cookiecutter.attribute1}};
