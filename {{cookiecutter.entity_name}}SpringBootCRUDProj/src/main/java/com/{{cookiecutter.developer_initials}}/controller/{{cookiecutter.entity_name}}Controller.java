@@ -38,7 +38,7 @@ public class {{cookiecutter.entity_name}}Controller {
 	@PostMapping("/save")
 	public String save{{cookiecutter.entity_name}}({{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}}, Model map) {
 		Integer id = service.save{{cookiecutter.entity_name}}(objectOf{{cookiecutter.entity_name}});
-		map.addAttribute("msg", "objectOf{{cookiecutter.entity_name}}" + id + "added successfully");
+		map.addAttribute("msg", "{{cookiecutter.entity_name}} [" + id + "] added successfully");
 
 		// clear form baking object
 		map.addAttribute("employee", new {{cookiecutter.entity_name}}());
