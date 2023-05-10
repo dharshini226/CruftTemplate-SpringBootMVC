@@ -23,6 +23,7 @@ public class {{cookiecutter.entity_name}}Controller {
 	// show welcome page
 		@GetMapping("/")
 		public String showWelcome() {
+			System.out.println("Welcome to Project");
 			return "welcome";
 		}
 	
