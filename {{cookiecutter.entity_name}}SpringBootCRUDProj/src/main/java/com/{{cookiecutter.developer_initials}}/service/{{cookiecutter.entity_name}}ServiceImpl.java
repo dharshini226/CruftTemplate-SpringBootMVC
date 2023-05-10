@@ -40,7 +40,7 @@ public class {{cookiecutter.entity_name}}ServiceImpl implements {{cookiecutter.e
 	
 	}
 
-	public void delete{{cookiecutter.entity_name}}(int id) {
+	public String delete{{cookiecutter.entity_name}}(int id) {
 		if (repo.findById(id).isPresent()) {	
 			repo.deleteById(id);
 			return "Deleted";

@@ -67,7 +67,7 @@ public class {{cookiecutter.entity_name}}SpringBootCRUDProjTest {
 	@Test
 	void update{{cookiecutter.entity_name}}_validInput_returnsNonNullStudent() {
 		// Arrange
-		{{cookiecutter.entity_name}} sobjectOf{{cookiecutter.entity_name}} = new Student();
+		{{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}} = new Student();
 		objectOf{{cookiecutter.entity_name}}.set{{cookiecutter.attribute1}}(random{{cookiecutter.data_type_attribute1}});
 		objectOf{{cookiecutter.entity_name}}.set{{cookiecutter.attribute2}}(random{{cookiecutter.data_type_attribute2}});
 		objectOf{{cookiecutter.entity_name}}.set{{cookiecutter.attribute3}}(random{{cookiecutter.data_type_attribute3}});
@@ -163,7 +163,7 @@ public class {{cookiecutter.entity_name}}SpringBootCRUDProjTest {
 		service.save{{cookiecutter.entity_name}}(objectOf{{cookiecutter.entity_name}}2);
 
 		// Act
-		List<{{cookiecutter.entity_name}}> listOfObjects= service.getAll{{cookiecutter.entity_name}}();
+		List<{{cookiecutter.entity_name}}> listOfObjects= service.getAll{{cookiecutter.entity_name}}s();
 		assertNotNull(listOfObjects);
 	}
 }
