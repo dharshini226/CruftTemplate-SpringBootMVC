@@ -8,7 +8,7 @@ public interface {{cookiecutter.entity_name}}Service {
 
 	public Integer save{{cookiecutter.entity_name}}({{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}});
 	public {{cookiecutter.entity_name}} update{{cookiecutter.entity_name}}({{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}});
-	public void delete{{cookiecutter.entity_name}}(int id);
+	public String delete{{cookiecutter.entity_name}}(int id);
 	public {{cookiecutter.entity_name}} getOne{{cookiecutter.entity_name}}(int id);
 	public List<{{cookiecutter.entity_name}}> getAll{{cookiecutter.entity_name}}s();
 	
