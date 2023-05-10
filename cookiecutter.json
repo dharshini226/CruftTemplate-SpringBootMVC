@@ -1,5 +1,4 @@
 {
-    "java_version":"17 or 11",
     "entity_name":"Employee",
 	"info":"Give 3 attributes for your entity[Press any key to continue]",
 	"attribute1":"name",

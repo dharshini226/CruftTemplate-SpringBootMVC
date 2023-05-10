@@ -15,7 +15,7 @@
 	<name>{{cookiecutter.entity_name}}SpringBootCRUDProj</name>
 	<description>Demo project for Spring Boot Crud Operation</description>
 	<properties>
-		<java.version>{{cookiecutter.java_version}}</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
