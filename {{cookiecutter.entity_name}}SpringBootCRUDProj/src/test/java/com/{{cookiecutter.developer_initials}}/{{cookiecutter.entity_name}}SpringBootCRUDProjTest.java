@@ -67,7 +67,7 @@ public class {{cookiecutter.entity_name}}SpringBootCRUDProjTest {
 	@Test
 	void update{{cookiecutter.entity_name}}_validInput_returnsNonNullStudent() {
 		// Arrange
-		{{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}} = new Student();
+		{{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}} = new {{cookiecutter.entity_name}}();
 		objectOf{{cookiecutter.entity_name}}.set{{cookiecutter.attribute1}}(random{{cookiecutter.data_type_attribute1}});
 		objectOf{{cookiecutter.entity_name}}.set{{cookiecutter.attribute2}}(random{{cookiecutter.data_type_attribute2}});
 		objectOf{{cookiecutter.entity_name}}.set{{cookiecutter.attribute3}}(random{{cookiecutter.data_type_attribute3}});
