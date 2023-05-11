@@ -18,8 +18,8 @@ public class {{cookiecutter.entity_name}}ServiceImpl implements {{cookiecutter.e
 
 	public Integer save{{cookiecutter.entity_name}}({{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}}) {
 		if (!objectOf{{cookiecutter.entity_name}}.equals(null))
-			if (objectOf{{cookiecutter.entity_name}}.getname() != null || objectOf{{cookiecutter.entity_name}}.getemail() != null
-					|| objectOf{{cookiecutter.entity_name}}.getmarks() != null)
+			if (objectOf{{cookiecutter.entity_name}}.get{{cookiecutter.attribute1}}() != null || objectOf{{cookiecutter.entity_name}}.get{{cookiecutter.attribute2}}() != null
+					|| objectOf{{cookiecutter.entity_name}}.get{{cookiecutter.attribute3}}() != null)
 				return repo.save(objectOf{{cookiecutter.entity_name}}).getid();
 			else
 				return 0;
@@ -30,8 +30,8 @@ public class {{cookiecutter.entity_name}}ServiceImpl implements {{cookiecutter.e
 
 	public {{cookiecutter.entity_name}} update{{cookiecutter.entity_name}}({{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}}) {
 		if (!objectOf{{cookiecutter.entity_name}}.equals(null))
-			if (objectOf{{cookiecutter.entity_name}}.getname() != null || objectOf{{cookiecutter.entity_name}}.getemail() != null
-					|| objectOf{{cookiecutter.entity_name}}.getmarks() != null)
+			if (objectOf{{cookiecutter.entity_name}}.get{{cookiecutter.attribute1}}() != null || objectOf{{cookiecutter.entity_name}}.get{{cookiecutter.attribute2}}() != null
+					|| objectOf{{cookiecutter.entity_name}}.get{{cookiecutter.attribute3}}() != null)
 				return repo.save(objectOf{{cookiecutter.entity_name}});
 			else
 				return null;
