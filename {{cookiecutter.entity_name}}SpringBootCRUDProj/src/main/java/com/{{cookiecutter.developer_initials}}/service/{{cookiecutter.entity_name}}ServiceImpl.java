@@ -17,9 +17,9 @@ public class {{cookiecutter.entity_name}}ServiceImpl implements {{cookiecutter.e
 	private {{cookiecutter.entity_name}}Repository repo;
 
 	public Integer save{{cookiecutter.entity_name}}({{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}}) {
-		if (!objectOfStudent.equals(null))
-			if (objectOfStudent.getname() != null || objectOfStudent.getemail() != null
-					|| objectOfStudent.getmarks() != null)
+		if (!objectOf{{cookiecutter.entity_name}}.equals(null))
+			if (objectOf{{cookiecutter.entity_name}}.getname() != null || objectOf{{cookiecutter.entity_name}}.getemail() != null
+					|| objectOf{{cookiecutter.entity_name}}.getmarks() != null)
 				return repo.save(objectOf{{cookiecutter.entity_name}}).getid();
 			else
 				return 0;
@@ -29,9 +29,9 @@ public class {{cookiecutter.entity_name}}ServiceImpl implements {{cookiecutter.e
 	}
 
 	public {{cookiecutter.entity_name}} update{{cookiecutter.entity_name}}({{cookiecutter.entity_name}} objectOf{{cookiecutter.entity_name}}) {
-		if (!objectOfStudent.equals(null))
-			if (objectOfStudent.getname() != null || objectOfStudent.getemail() != null
-					|| objectOfStudent.getmarks() != null)
+		if (!objectOf{{cookiecutter.entity_name}}.equals(null))
+			if (objectOf{{cookiecutter.entity_name}}.getname() != null || objectOf{{cookiecutter.entity_name}}.getemail() != null
+					|| objectOf{{cookiecutter.entity_name}}.getmarks() != null)
 				return repo.save(objectOf{{cookiecutter.entity_name}});
 			else
 				return null;
